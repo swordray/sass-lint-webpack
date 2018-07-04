@@ -1,0 +1,71 @@
+env:
+  es6: true
+  node: true
+extends: 'eslint:all'
+parserOptions:
+  sourceType: module
+rules:
+  array-bracket-spacing:
+  - error
+  - always
+  array-element-newline:
+  - error
+  - consistent
+  brace-style:
+  - error
+  - 1tbs
+  -
+    allowSingleLine: true
+  comma-dangle:
+  - error
+  - always-multiline
+  global-require: off
+  id-length:
+  - error
+  -
+    exceptions:
+    - _
+  indent:
+  - error
+  - 2
+  max-len: off
+  max-lines-per-function: off
+  max-statements: off
+  max-statements-per-line:
+  - error
+  -
+    max: 2
+  multiline-ternary: off
+  newline-per-chained-call: off
+  no-invalid-this: off
+  no-magic-numbers:
+  - error
+  -
+    ignore:
+    - 0
+    - 1
+  no-mixed-operators: off
+  no-ternary: off
+  object-curly-spacing:
+  - error
+  - always
+  one-var: off
+  padded-blocks:
+  - error
+  - never
+  quotes:
+  - error
+  - single
+  -
+    avoidEscape: true
+  quote-props:
+  - error
+  - as-needed
+  require-jsdoc: off
+  semi:
+  - error
+  - never
+  sort-keys: off
+  space-before-function-paren:
+  - error
+  - never

@@ -1,0 +1,33 @@
+{
+  "name": "sass-lint-webpack",
+  "version": "1.0.0",
+  "description": "Sass-lint plugin for Webpack 4+",
+  "main": "index.js",
+  "keywords": [
+    "lint",
+    "loader",
+    "sass",
+    "sass-lint",
+    "scss",
+    "scss-lint",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "homepage": "https://github.com/swordray/sass-lint-webpack",
+  "bugs": "https://github.com/swordray/sass-lint-webpack/issues",
+  "repository": {
+    "url": "https://github.com/swordray/sass-lint-webpack",
+    "type": "git"
+  },
+  "author": "Jianqiu Xiao <swordray@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1"
+  },
+  "peerDependencies": {
+    "sass-lint": "^1.12.1"
+  }
+}

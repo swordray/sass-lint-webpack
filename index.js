@@ -17,15 +17,15 @@ class SassLintWebpackPlugin {
         results.forEach((result) => {
           result.messages.forEach((message) => {
             const error = [
-              chalk.underline(`${result.filePath}:${message.line}:${message.column}:`),
+              chalk.underline(`${result.filePath}:${message.line}:${message.column}`),
               chalk.white(message.message),
               chalk.gray(`[${message.ruleId}]`),
             ].join(' ')
 
             if (message.severity === 1) {
-              compilation.warnings.push(error)
+              compilation.warnings.push(new Error(error))
             } else {
-              compilation.errors.push(error)
+              compilation.errors.push(new Error(error))
             }
           })
         })

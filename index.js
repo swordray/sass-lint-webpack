@@ -23,9 +23,9 @@ class SassLintWebpackPlugin {
             ].join(' ')
 
             if (message.severity === 1) {
-              compilation.warnings.push( new Error( error ) )
+              compilation.warnings.push(new Error(error))
             } else {
-              compilation.errors.push( new Error( error ) )
+              compilation.errors.push(new Error(error))
             }
           })
         })

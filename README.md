@@ -47,4 +47,4 @@ Normally the `.sass-lint.yml` file is all you need. It is also possible to manua
 
 ## License
 
-Copyright (c) 2018 Jianqiu Xiao <swordray@gmail.com> under the MIT License.
+Copyright (c) 2019 Jianqiu Xiao <swordray@gmail.com> under the MIT License.

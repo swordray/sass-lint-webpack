@@ -22,10 +22,10 @@
   "author": "Jianqiu Xiao <swordray@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "eslint": "^5.0.1"
+    "eslint": "^6.1.0"
   },
   "peerDependencies": {
     "sass-lint": "^1.12.1"

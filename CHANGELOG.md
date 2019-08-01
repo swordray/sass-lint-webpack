@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Bump dependencies
+
 ## 1.0.1 (2019-04-24)
 
 * Use `Error` class

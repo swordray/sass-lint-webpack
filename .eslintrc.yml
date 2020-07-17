@@ -19,6 +19,9 @@ rules:
   comma-dangle:
   - error
   - always-multiline
+  function-call-argument-newline:
+  - error
+  - consistent
   global-require: off
   id-length:
   - error

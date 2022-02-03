@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.0.4 (2022-02-03)
+
 * Bump dependencies
 
 ## 1.0.3 (2020-07-17)

@@ -45,6 +45,10 @@ Normally the `.sass-lint.yml` file is all you need. It is also possible to manua
 * [options](https://github.com/sasstools/sass-lint#options) - user specified rules/options passed in
 * [configPath](https://github.com/sasstools/sass-lint/blob/master/docs/options/config-file.md) - path to a config file
 
+## Sponsors
+
+* [BaiLu ShuYuan](https://bailushuyuan.org)
+
 ## License
 
-Copyright (c) 2020 Jianqiu Xiao <swordray@gmail.com> under the MIT License.
+Copyright (c) 2022 Jianqiu Xiao <swordray@gmail.com> under the MIT License.

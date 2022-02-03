@@ -1,6 +1,6 @@
 {
   "name": "sass-lint-webpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sass-lint plugin for Webpack 4+",
   "main": "index.js",
   "keywords": [
@@ -13,7 +13,7 @@
     "webpack",
     "webpack-plugin"
   ],
-  "homepage": "https://github.com/swordray/sass-lint-webpack",
+  "homepage": "https://bailushuyuan.org",
   "bugs": "https://github.com/swordray/sass-lint-webpack/issues",
   "repository": {
     "url": "https://github.com/swordray/sass-lint-webpack",
